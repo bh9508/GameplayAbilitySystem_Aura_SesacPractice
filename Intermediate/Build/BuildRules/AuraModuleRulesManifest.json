@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\byunghoon\\Unreal\\Aura\\Source\\Aura\\Aura.Build.cs",
+		"C:\\byunghoon\\Unreal\\Aura\\Source\\Aura.Target.cs",
+		"C:\\byunghoon\\Unreal\\Aura\\Source\\AuraEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
