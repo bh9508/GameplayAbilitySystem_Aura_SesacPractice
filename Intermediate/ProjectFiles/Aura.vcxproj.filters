@@ -55,6 +55,18 @@
     <ClCompile Include="..\..\Source\Aura\Private\Character\AuraEnemy.cpp">
       <Filter>Source\Aura\Private\Character</Filter>
     </ClCompile>
+    <Filter Include="Source\Aura\Private\Game">
+      <UniqueIdentifier>{08D199A1-70C2-3BEB-A332-B90A816A4CF5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\Game\AuraGameModeBase.cpp">
+      <Filter>Source\Aura\Private\Game</Filter>
+    </ClCompile>
+    <Filter Include="Source\Aura\Private\Interaction">
+      <UniqueIdentifier>{8600DADF-1C2F-3B4E-851E-5CF3B1B94879}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\Interaction\EnemyInterface.cpp">
+      <Filter>Source\Aura\Private\Interaction</Filter>
+    </ClCompile>
     <Filter Include="Source\Aura\Private\Player">
       <UniqueIdentifier>{0384C61C-70FC-34C5-AA42-3FFE81EA736E}</UniqueIdentifier>
     </Filter>
@@ -75,6 +87,18 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\Aura\Public\Character\AuraEnemy.h">
       <Filter>Source\Aura\Public\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\Public\Game">
+      <UniqueIdentifier>{DCB2C027-DDED-3CDF-90B1-320D9F1C597B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\Game\AuraGameModeBase.h">
+      <Filter>Source\Aura\Public\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\Public\Interaction">
+      <UniqueIdentifier>{AC69F4E0-FE2C-3C00-9744-FF5ECD46407C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\Interaction\EnemyInterface.h">
+      <Filter>Source\Aura\Public\Interaction</Filter>
     </ClInclude>
     <Filter Include="Source\Aura\Public\Player">
       <UniqueIdentifier>{92C9D14F-9ACD-3BE9-BD79-820E68D968CD}</UniqueIdentifier>
