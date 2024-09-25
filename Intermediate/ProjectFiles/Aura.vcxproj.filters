@@ -91,6 +91,21 @@
     <ClCompile Include="..\..\Source\Aura\Private\Player\AuraPlayerState.cpp">
       <Filter>Source\Aura\Private\Player</Filter>
     </ClCompile>
+    <Filter Include="Source\Aura\Private\UI">
+      <UniqueIdentifier>{F9372D0D-4A97-3565-B84C-896EF7901031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Aura\Private\UI\WidgetController">
+      <UniqueIdentifier>{D768110E-7A16-3E45-95C4-8523946E0A11}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\UI\WidgetController\AuraWidgetController.cpp">
+      <Filter>Source\Aura\Private\UI\WidgetController</Filter>
+    </ClCompile>
+    <Filter Include="Source\Aura\Private\UI\Widgets">
+      <UniqueIdentifier>{A12C3688-B1A7-3E90-BEC9-1301CBD51E70}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\UI\Widgets\AuraUserWidget.cpp">
+      <Filter>Source\Aura\Private\UI\Widgets</Filter>
+    </ClCompile>
     <Filter Include="Source\Aura\Public">
       <UniqueIdentifier>{812D085E-218E-32A1-B6D9-A817B3D0072A}</UniqueIdentifier>
     </Filter>
@@ -141,6 +156,21 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\Aura\Public\Player\AuraPlayerState.h">
       <Filter>Source\Aura\Public\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\Public\UI">
+      <UniqueIdentifier>{8F425D6D-BDE7-3B81-8763-332C56914637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Aura\Public\UI\WidgetController">
+      <UniqueIdentifier>{3BCD7258-E95C-3A59-ACAC-9F88D343DD76}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\UI\WidgetController\AuraWidgetController.h">
+      <Filter>Source\Aura\Public\UI\WidgetController</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\Public\UI\Widgets">
+      <UniqueIdentifier>{CC650AEA-B954-3499-9AE1-48F0970D37BD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\UI\Widgets\AuraUserWidget.h">
+      <Filter>Source\Aura\Public\UI\Widgets</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
