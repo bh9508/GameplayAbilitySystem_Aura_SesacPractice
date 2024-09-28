@@ -10,8 +10,7 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AActor;
-class UPrimitiveComponent;
-struct FHitResult;
+class UGameplayEffect;
 #ifdef AURA_AuraEffectActor_generated_h
 #error "AuraEffectActor.generated.h already included, missing '#pragma once' in AuraEffectActor.h"
 #endif
@@ -22,8 +21,7 @@ struct FHitResult;
 #define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execEndOverlap); \
-	DECLARE_FUNCTION(execOnOverlap);
+	DECLARE_FUNCTION(execApplyEffectToTarget);
 
 
 #define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_ACCESSORS
