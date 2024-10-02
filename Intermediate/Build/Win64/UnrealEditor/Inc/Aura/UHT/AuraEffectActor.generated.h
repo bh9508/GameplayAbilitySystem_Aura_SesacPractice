@@ -16,16 +16,18 @@ class UGameplayEffect;
 #endif
 #define AURA_AuraEffectActor_generated_h
 
-#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_SPARSE_DATA
-#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_SPARSE_DATA
+#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnEndOverlap); \
+	DECLARE_FUNCTION(execOnOverlap); \
 	DECLARE_FUNCTION(execApplyEffectToTarget);
 
 
-#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_ACCESSORS
-#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_ACCESSORS
+#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAuraEffectActor(); \
 	friend struct Z_Construct_UClass_AAuraEffectActor_Statics; \
@@ -34,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(AAuraEffectActor)
 
 
-#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAuraEffectActor(AAuraEffectActor&&); \
@@ -46,17 +48,17 @@ public: \
 	NO_API virtual ~AAuraEffectActor();
 
 
-#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_11_PROLOG
-#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_GENERATED_BODY \
+#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_29_PROLOG
+#define FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_SPARSE_DATA \
-	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_ACCESSORS \
-	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_INCLASS_NO_PURE_DECLS \
-	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_ENHANCED_CONSTRUCTORS \
+	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_SPARSE_DATA \
+	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_ACCESSORS \
+	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_INCLASS_NO_PURE_DECLS \
+	FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_32_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -66,5 +68,22 @@ template<> AURA_API UClass* StaticClass<class AAuraEffectActor>();
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_byunghoon_Unreal_Aura_Source_Aura_Public_Actor_AuraEffectActor_h
 
+
+#define FOREACH_ENUM_EEFFECTAPPLICATIONPOLICY(op) \
+	op(EEffectApplicationPolicy::ApplyOnOverlap) \
+	op(EEffectApplicationPolicy::ApplyOnEndOverlap) \
+	op(EEffectApplicationPolicy::DoNotApply) 
+
+enum class EEffectApplicationPolicy;
+template<> struct TIsUEnumClass<EEffectApplicationPolicy> { enum { Value = true }; };
+template<> AURA_API UEnum* StaticEnum<EEffectApplicationPolicy>();
+
+#define FOREACH_ENUM_EEFFECTREMOVALPOLICY(op) \
+	op(EEffectRemovalPolicy::RemoveOnEndOverlap) \
+	op(EEffectRemovalPolicy::DoNotRemove) 
+
+enum class EEffectRemovalPolicy;
+template<> struct TIsUEnumClass<EEffectRemovalPolicy> { enum { Value = true }; };
+template<> AURA_API UEnum* StaticEnum<EEffectRemovalPolicy>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
