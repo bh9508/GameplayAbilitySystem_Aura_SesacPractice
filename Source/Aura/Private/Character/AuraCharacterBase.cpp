@@ -2,6 +2,8 @@
 
 
 #include "Character/AuraCharacterBase.h"
+#include "AbilitySystemComponent.h"
+#include "AbilitySystem/AuraAbilitySystemComponent.h"
 
 class AAuraPlayerState;
 
@@ -29,6 +31,15 @@ void AAuraCharacterBase::BeginPlay()
 
 void AAuraCharacterBase::InitAbilityActorInfo()
 {
+}
+
+void AAuraCharacterBase::AddCharacterAbilities()
+{
+	UAuraAbilitySystemComponent* AuraASC = CastChecked<UAuraAbilitySystemComponent>(AbilitySystemComponent);
+	if (!HasAuthority()) return; 
+
+	AuraASC->AddCharacterAbilities(StartupAbilities);
+
 }
 
 

@@ -114,6 +114,7 @@
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Config\DefaultGameplayTags.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
     <None Include="..\..\Source\Aura\Aura.Build.cs"/>
     <ClCompile Include="..\..\Source\Aura\Aura.cpp">
@@ -128,6 +129,11 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClCompile Include="..\..\Source\Aura\Private\AbilitySystem\AuraAttributeSet.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Aura\Private\AbilitySystem\Abilities\AuraGameplayAbility.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
@@ -153,6 +159,11 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClCompile Include="..\..\Source\Aura\Private\Game\AuraGameModeBase.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Aura\Private\Input\AuraInputConfig.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
@@ -194,11 +205,13 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\Public\AbilitySystem\AuraAbilitySystemComponent.h"/>
     <ClInclude Include="..\..\Source\Aura\Public\AbilitySystem\AuraAttributeSet.h"/>
+    <ClInclude Include="..\..\Source\Aura\Public\AbilitySystem\Abilities\AuraGameplayAbility.h"/>
     <ClInclude Include="..\..\Source\Aura\Public\Actor\AuraEffectActor.h"/>
     <ClInclude Include="..\..\Source\Aura\Public\Character\AuraCharacter.h"/>
     <ClInclude Include="..\..\Source\Aura\Public\Character\AuraCharacterBase.h"/>
     <ClInclude Include="..\..\Source\Aura\Public\Character\AuraEnemy.h"/>
     <ClInclude Include="..\..\Source\Aura\Public\Game\AuraGameModeBase.h"/>
+    <ClInclude Include="..\..\Source\Aura\Public\Input\AuraInputConfig.h"/>
     <ClInclude Include="..\..\Source\Aura\Public\Interaction\EnemyInterface.h"/>
     <ClInclude Include="..\..\Source\Aura\Public\Player\AuraPlayerController.h"/>
     <ClInclude Include="..\..\Source\Aura\Public\Player\AuraPlayerState.h"/>

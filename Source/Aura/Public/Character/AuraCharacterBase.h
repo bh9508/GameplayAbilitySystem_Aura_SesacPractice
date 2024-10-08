@@ -9,6 +9,7 @@
 
 class UAbilitySystemComponent;
 class UAttributeSet;
+class UGameplayAbility;
 
 UCLASS(Abstract)
 class AURA_API AAuraCharacterBase : public ACharacter, public IAbilitySystemInterface
@@ -34,4 +35,9 @@ protected:
 
 	virtual void InitAbilityActorInfo();
 
+	void AddCharacterAbilities();
+
+private:
+	UPROPERTY(EditAnywhere, Category = "Abilities")
+	TArray <TSubclassOf<UGameplayAbility>> StartupAbilities;
 };

@@ -25,6 +25,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
@@ -52,6 +55,12 @@
     <ClCompile Include="..\..\Source\Aura\Private\AbilitySystem\AuraAttributeSet.cpp">
       <Filter>Source\Aura\Private\AbilitySystem</Filter>
     </ClCompile>
+    <Filter Include="Source\Aura\Private\AbilitySystem\Abilities">
+      <UniqueIdentifier>{DFA34C06-BED9-3B4B-AC97-7DAF6B5D85CD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\AbilitySystem\Abilities\AuraGameplayAbility.cpp">
+      <Filter>Source\Aura\Private\AbilitySystem\Abilities</Filter>
+    </ClCompile>
     <Filter Include="Source\Aura\Private\Actor">
       <UniqueIdentifier>{051A7246-5551-3D03-BC41-3B84493932DF}</UniqueIdentifier>
     </Filter>
@@ -75,6 +84,12 @@
     </Filter>
     <ClCompile Include="..\..\Source\Aura\Private\Game\AuraGameModeBase.cpp">
       <Filter>Source\Aura\Private\Game</Filter>
+    </ClCompile>
+    <Filter Include="Source\Aura\Private\Input">
+      <UniqueIdentifier>{C3AD8B08-3AA0-3E95-A897-C6703F5DA59C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\Input\AuraInputConfig.cpp">
+      <Filter>Source\Aura\Private\Input</Filter>
     </ClCompile>
     <Filter Include="Source\Aura\Private\Interaction">
       <UniqueIdentifier>{8600DADF-1C2F-3B4E-851E-5CF3B1B94879}</UniqueIdentifier>
@@ -127,6 +142,12 @@
     <ClInclude Include="..\..\Source\Aura\Public\AbilitySystem\AuraAttributeSet.h">
       <Filter>Source\Aura\Public\AbilitySystem</Filter>
     </ClInclude>
+    <Filter Include="Source\Aura\Public\AbilitySystem\Abilities">
+      <UniqueIdentifier>{86B8CD5C-F5F0-31A8-90A9-E38073EC176F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\AbilitySystem\Abilities\AuraGameplayAbility.h">
+      <Filter>Source\Aura\Public\AbilitySystem\Abilities</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\Public\Actor">
       <UniqueIdentifier>{FB1C9C32-0E54-3D43-B3D9-FD86BB6EBCF1}</UniqueIdentifier>
     </Filter>
@@ -150,6 +171,12 @@
     </Filter>
     <ClInclude Include="..\..\Source\Aura\Public\Game\AuraGameModeBase.h">
       <Filter>Source\Aura\Public\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\Public\Input">
+      <UniqueIdentifier>{990A1480-E998-3054-91AE-4C9BB6814F97}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\Input\AuraInputConfig.h">
+      <Filter>Source\Aura\Public\Input</Filter>
     </ClInclude>
     <Filter Include="Source\Aura\Public\Interaction">
       <UniqueIdentifier>{AC69F4E0-FE2C-3C00-9744-FF5ECD46407C}</UniqueIdentifier>
